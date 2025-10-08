@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Handloom Heritage</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background-color: #faf4ef;
+      color: #333;
+    }
+
+    header {
+      background: #8b5e3c;
+      color: white;
+      text-align: center;
+      padding: 30px 10px;
+    }
+
+    nav {
+      background: #a97453;
+      text-align: center;
+      padding: 12px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 18px;
+      font-size: 17px;
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .product-card {
+      background: white;
+      border-radius: 12px;
+      padding: 15px;
+      text-align: center;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .product-card:hover {
+      transform: scale(1.05);
+    }
+
+    .product-card img {
+      width: 100%;
+      height: 230px;
+      object-fit: cover;
+      border-radius: 10px;
+      margin-bottom: 12px;
+    }
+
+    .price {
+      font-size: 18px;
+      color: #2e8b57;
+      font-weight: bold;
+      margin: 10px 0;
+    }
+
+    .btn {
+      background: #8b5e3c;
+      color: white;
+      padding: 10px 15px;
+      border-radius: 6px;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+
+    .btn:hover {
+      background: #6b4224;
+    }
+
+    footer {
+      background: #5c3d2e;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🧵 Handloom Heritage</h1>
+    <p>Celebrating Indian Craftsmanship & Tradition</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="checkout.html">Checkout</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <div class="container">
+    <h2 style="text-align:center;">Our Handcrafted Collection</h2>
+    <div class="products">
+
+      <div class="product-card">
+        <img src="https://source.unsplash.com/400x300/?handloom,saree" alt="Cotton Saree">
+        <h3>Cotton Saree</h3>
+        <p>Soft, breathable and woven with traditional motifs.</p>
+        <p class="price">₹1,999</p>
+        <a href="checkout.html" class="btn">Buy Now</a>
+      </div>
+
+      <div class="product-card">
+        <img src="https://source.unsplash.com/400x300/?silk,saree" alt="Silk Saree">
+        <h3>Silk Saree</h3>
+        <p>Elegant handwoven silk with intricate zari borders.</p>
+        <p class="price">₹4,999</p>
+        <a href="checkout.html" class="btn">Buy Now</a>
+      </div>
+
+      <div class="product-card">
+        <img src="https://source.unsplash.com/400x300/?handloom,scarf" alt="Scarf">
+        <h3>Handwoven Scarf</h3>
+        <p>Perfect blend of comfort and style for any outfit.</p>
+        <p class="price">₹899</p>
+        <a href="checkout.html" class="btn">Buy Now</a>
+      </div>
+
+      <div class="product-card">
+        <img src="https://source.unsplash.com/400x300/?fabric,textile" alt="Cotton Fabric">
+        <h3>Handloom Cotton Fabric</h3>
+        <p>Authentic handwoven cotton for your creative designs.</p>
+        <p class="price">₹499 / meter</p>
+        <a href="checkout.html" class="btn">Buy Now</a>
+      </div>
+
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Handloom Heritage | Woven with Love in India 🇮🇳</p>
+  </footer>
+</body>
+</html>
